@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +9,14 @@ main {
     height: 70vh;
     background-color: teal;
     color: white;
+=======
+body{
+    height:100vh;
+    text-align: center;
+    
+}
+header{
+    height:7vh;
+    background:rgb(203, 97, 85);
+>>>>>>> 353a5c60c74fa846592aca9347dc3716d600a0d0
 }
