@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-main {
-    height: 70vh;
-    background-color: teal;
-    color: white;
-=======
+
 body{
     height:100vh;
     text-align: center;
@@ -18,5 +13,23 @@ body{
 header{
     height:7vh;
     background:rgb(203, 97, 85);
->>>>>>> 353a5c60c74fa846592aca9347dc3716d600a0d0
+}
+main {
+    height: 70vh;
+    background-color: teal;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.content:nth-child(1){
+    flex: 1;
+    background: blue;
+}
+.content:nth-child(2){
+    flex:1;
+    background: paleturquoise;
+}
+.content:nth-child(3){
+    flex: 1;
+    background: pink;
 }
