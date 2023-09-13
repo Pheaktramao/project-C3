@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    background: #2dcddbba;
+    color: white;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.footerleft{
+    flex: 1;
+    background: #eb980a;
+    padding: 10px;
+}
+.footercenter{
+    flex: 1;
+    background: #a6731c;
+    padding: 10px;
+}
+.footerright{
+    flex: 1;
+    background: #5a3b05;
+    padding: 10px;
+}
