@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    background: #2dcddbba;
+    color: white;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.footerleft{
+    flex: 1;
+    background: #eb980a;
+    padding: 10px;
+}
+.footercenter{
+    flex: 1;
+    background: #a6731c;
+    padding: 10px;
+}
+.footerright{
+    flex: 1;
+    background: #5a3b05;
+    padding: 10px;
+=======
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +36,30 @@ body{
     display: grid;
     grid-row: 1fr 2fr 1fr;
 }
+<<<<<<< HEAD
+=======
+header{
+    height:7vh;
+    background:rgb(203, 97, 85);
+}
+main {
+    height: 70vh;
+    background-color: teal;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.content:nth-child(1){
+    flex: 1;
+    background: blue;
+}
+.content:nth-child(2){
+    flex:1;
+    background: paleturquoise;
+}
+.content:nth-child(3){
+    flex: 1;
+    background: pink;
+>>>>>>> 67e74f006de814cf4994a9e52396ed0c996ffe34
+}
+>>>>>>> b840fdab6fed31a91702a0c6e2fc021d0b953d2f
