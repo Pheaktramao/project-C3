@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer{
     display: flex;
     flex-direction: row;
@@ -24,4 +25,40 @@ footer{
     flex: 1;
     background: #5a3b05;
     padding: 10px;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    height:100vh;
+    text-align: center;
+    
+}
+header{
+    height:7vh;
+    background:rgb(203, 97, 85);
+}
+main {
+    height: 70vh;
+    background-color: teal;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.content:nth-child(1){
+    flex: 1;
+    background: blue;
+}
+.content:nth-child(2){
+    flex:1;
+    background: paleturquoise;
+}
+.content:nth-child(3){
+    flex: 1;
+    background: pink;
+>>>>>>> 67e74f006de814cf4994a9e52396ed0c996ffe34
 }
